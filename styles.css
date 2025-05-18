@@ -1,0 +1,83 @@
+/* Basis-Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #ffdd57;
+  padding: 1rem;
+  text-align: center;
+}
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Hero-Bereich */
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007acc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Weitere Sektionen */
+.services {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+.services h2 {
+  text-align: center;
+}
+.services ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+/* Kontaktformular */
+.contact {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+.contact label {
+  margin-top: 1rem;
+}
+.contact input, .contact textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact .btn {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
