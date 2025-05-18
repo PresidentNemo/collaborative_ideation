@@ -1,83 +1,76 @@
-/* Basis-Styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #f9f9f9;
-}
-
-/* Navigation */
-.navbar {
-  background-color: #ffdd57;
-  padding: 1rem;
+  background: #f4fbfc;
+  color: #03343d;
+  scroll-behavior: smooth;
   text-align: center;
 }
-.navbar a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #000;
-}
-
-/* Hero-Bereich */
 .hero {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 5rem 1rem;
 }
-.hero img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+.hero h1 {
+  font-size: 2.5rem;
 }
-.hero .btn {
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.cta-button {
+  background: white;
+  color: #0072ff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.cta-button:hover {
+  background: #e0f7ff;
+}
+section {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #025a70;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.card {
+  background: white;
+  border: 1px solid #d1ecf1;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.card h3 {
+  color: #0072ff;
+  text-align: center;
+}
+.mail-link {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #007acc;
-  color: #fff;
+  font-size: 1.1rem;
+  color: #0072ff;
   text-decoration: none;
-  border-radius: 4px;
 }
-
-/* Weitere Sektionen */
-.services {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-.services h2 {
+footer {
   text-align: center;
-}
-.services ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-}
-
-/* Kontaktformular */
-.contact {
-  padding: 2rem;
-  max-width: 600px;
-  margin: auto;
-}
-.contact form {
-  display: flex;
-  flex-direction: column;
-}
-.contact label {
-  margin-top: 1rem;
-}
-.contact input, .contact textarea {
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-.contact .btn {
-  margin-top: 1rem;
-  padding: 0.75rem;
-  background-color: #007acc;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  background: #e0f7ff;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
