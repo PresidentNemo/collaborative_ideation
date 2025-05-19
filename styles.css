@@ -74,3 +74,78 @@ footer {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+.contact {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+/* Navigationsleiste */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Links in der Navbar */
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  position: relative;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover-Effekt */
+.navbar a:hover {
+  color: #4caf50;
+}
+
+/* Aktiver Reiter */
+.navbar a.active::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  margin-top: 4px;
+  width: 60%;
+  height: 3px;
+  background-color: #4caf50;
+  border-radius: 2px;
+}
