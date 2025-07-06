@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://presidentnemo.github.io/collaborative_ideation/index.html/sitemap.xml
